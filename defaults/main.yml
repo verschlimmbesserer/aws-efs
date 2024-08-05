@@ -1,0 +1,14 @@
+---
+# defaults file for aws-efs
+aws_efs_prerequisites:
+  - git
+  - make
+  - binutils
+  - nfs-common
+  - python3
+  - stunnel
+  - rustc
+  - cargo
+
+aws_efs_github_url: https://github.com/aws/efs-utils.git
+aws_efs_version: v2.0.3
